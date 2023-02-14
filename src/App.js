@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/* import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -19,6 +19,20 @@ function App() {
         </a>
       </header>
     </div>
+  );
+}
+
+export default App; */
+
+import React from 'react';
+import StockData from './StockData';
+
+function App() {
+  return (
+      <div>
+        <h1>Stock Data</h1>
+        <StockData />
+      </div>
   );
 }
 
